@@ -1,8 +1,14 @@
 {
-  "name": "useeasyfetch",
+  "name": "use-easy-fetch",
   "version": "0.1.0",
-  "private": true,
+  "description": "Лёгкая утилита для удобной работы с Fetch API (FormData/JSON) в TypeScript/JavaScript.",
   "type": "module",
+  "main": "dist/useEasyFetch.js",
+  "types": "dist/useEasyFetch.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "watch": "tsc -w -p tsconfig.json",
